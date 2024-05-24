@@ -85,11 +85,11 @@ with st.form('Prever Resultado'):
         if resultado == 1:
             # Texto para pacientes com doença hepática (vermelho)
             texto_hepatica = "<span style='color:#f36f22; font-size: 36px;'>Este paciente deve apresentar doença hepática!</span>"
-            st.markdown(texto_hepatica, unsafe_allow_html=True ) #, divider='rainbow')
+            st.markdown('Este paciente deve apresentar doença hepática!') #, divider='rainbow')
         else:
             # Texto para pacientes sem doença hepática (azul)
             texto_nao_hepatica = "<span style='color:#1f3d51; font-size: 36px;'>Este paciente não deve apresentar doença hepática!</span>"
-            st.markdown(texto_nao_hepatica, unsafe_allow_html=True)
+            st.markdown('Este paciente não deve apresentar doença hepática!')
 
 
        
